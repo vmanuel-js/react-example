@@ -4,7 +4,7 @@ function Card({ portadaDeAlbum, nombreDeAutor, titulo }) {
       <div className='group m-3 block w-48 rounded-lg bg-black p-3 text-white hover:bg-[#353535]'>
         <div className='relative'>
           <img className='group w-48 flex-col justify-center rounded-lg' src={portadaDeAlbum} />
-          <div className='absolute bottom-0 right-0 hidden h-12 w-12 items-center justify-center rounded-full bg-[#1DB954] transition delay-150 ease-in-out hover:-translate-y-1 group-hover:flex'>
+          <div className='absolute bottom-0 right-0 hidden h-12 w-12 items-center justify-center rounded-full bg-[#1DB954] transition delay-0 ease-in-out hover:-translate-y-1 group-hover:flex'>
             <svg
               width='30'
               height='30'
